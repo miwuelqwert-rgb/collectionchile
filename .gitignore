@@ -1,0 +1,21 @@
+﻿# Bases de datos y copias de seguridad
+*.sqlite3
+*.sqlite3-*
+*.sqlite3.backup
+*.db
+
+# Variables de entorno y credenciales
+.env
+.env.*
+!.env.example
+
+# Archivos temporales de Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Archivos locales
+.DS_Store
+Thumbs.db
